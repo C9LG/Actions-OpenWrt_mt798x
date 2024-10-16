@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.2.4/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 sed -i 's/ImmortalWrt/JDCloud/g' package/base-files/files/bin/config_generate
 ##-----------------Del duplicate packages------------------
 rm -rf feeds/packages/net/open-app-filter
